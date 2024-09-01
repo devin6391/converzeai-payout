@@ -1,0 +1,12 @@
+security:
+  encoders:
+    SHA256
+  psp1:
+    encryption_algo:
+      AES-256-CBC
+    secret_key:
+      abc123
+    iv:
+      abc123
+  MAX_RETRIES:
+    5

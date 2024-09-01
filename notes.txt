@@ -1,0 +1,12 @@
+Assumptions
+- SomeOrm - A made up tool that will create connection to MySQL server and help us query
+- UI
+-- One page for cart from where user checks out
+-- One page after checkout to confirm and pay - this is where we will start pay out
+- DB
+-- PaymentLog is an immutable table. We might think to create constrainst to revoke updates privilages.
+- Config
+-- Created config.yml file to make things more secure for storing secrets and encryption technique for PSPs.
+- Not built for distributed systems
+- Please expect some syntactical mistakes. I have tried my best to not have any
+- One flow 
